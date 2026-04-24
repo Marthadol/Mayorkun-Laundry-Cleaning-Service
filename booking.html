@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Your Service - Mayorkun Laundry & Cleaning Services</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="icon" href="./favicon.ico" />
+  </head>
+
+  <body>
+    <section class="order-page">
+      <!-- Back -->
+      <a href="index.html" class="back-home">← Back to Home</a>
+
+      <!-- Header -->
+      <div class="order-header">
+        <h1>Book a Service</h1>
+        <p>Select a service and complete your booking in seconds.</p>
+      </div>
+
+      <p class="sub-text">Choose a service below to continue</p>
+
+      <!-- MAIN LAYOUT -->
+      <div class="order-container">
+        <!-- SERVICES -->
+        <div class="order-services">
+          <div class="order-card" data-service="Clothes Washing">
+            <i class="fa-solid fa-shirt"></i>
+            <h3>Clothes Washing</h3>
+            <p>Fresh and clean everyday laundry.</p>
+          </div>
+
+          <div class="order-card" data-service="Ironing">
+            <i class="fas fa-check-circle"></i>
+            <h3>Ironing</h3>
+            <p>Neatly pressed wrinkle-free clothes.</p>
+          </div>
+
+          <div class="order-card" data-service="Starching">
+            <i class="fa-solid fa-wind"></i>
+            <h3>Starching</h3>
+            <p>Crisp and well-finished outfits.</p>
+          </div>
+
+          <div class="order-card" data-service="home cleaning">
+            <i class="fa-solid fa-broom"></i>
+            <h3>Home Cleaning</h3>
+            <p>Professional cleaning for your home.</p>
+          </div>
+        </div>
+
+        <!-- FORM -->
+        <div class="order-form-box">
+          <form id="orderForm">
+            <h2>Booking Details</h2>
+
+            <input type="text" id="name" placeholder="Full Name" required />
+            <input type="tel" id="phone" placeholder="Phone Number" required />
+
+            <label>Pickup Date</label>
+            <input type="date" id="pickupDate" required />
+
+            <label>Return Date</label>
+            <input type="date" id="returnDate" required />
+
+            <input
+              type="text"
+              id="address"
+              placeholder="Address"
+              required
+            />
+
+            <input type="hidden" id="service" name="service"/>
+
+            <button type="submit" id="confirmBooking">Confirm Booking</button>
+          </form>
+          <p class="whatsapp-note">
+            <i class="fa-brands fa-whatsapp"></i>
+            You will be redirected to WhatsApp to confirm your booking.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+
+  <div class="footer-container">
+
+    <!-- Brand -->
+    <div class="footer-box">
+      <h3>Mayorkun Laundry & Cleaning</h3>
+      <p>Stay fresh,Stay safe.</p>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-box">
+      <h4>Quick Links</h4>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="booking.html">Book Now</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <!-- Contact -->
+    <div class="footer-box">
+      <h4>Contact</h4>
+      <p>📍 Oyo State, Ibadan, Eleyele NMPC Filling Station Nigeria.</p>
+      <p>📞 +234 915 773 7543</p>
+      <p>✉️ mayormayorkun4@gmail.com</p>
+    </div>
+
+    <!-- Social -->
+    <div class="footer-box">
+      <h4>Follow Us</h4>
+      <div class="socials">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+
+      <!-- BACK TO TOP -->
+      <a href="#" class="back-to-top">
+        ↑ Back to Top
+      </a>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Mayorkun Laundry & Cleaning. All rights reserved.</p>
+  </div>
+
+</footer>
+
+    <script src="./js/script.js" defer></script>
+  </body>
+</html>
