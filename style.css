@@ -1222,6 +1222,7 @@ input:disabled {
   border: none;
   background: none;
   cursor: pointer;
+  color: #00ffff;
 }
 
 .faq-answer {
@@ -1329,6 +1330,10 @@ input:disabled {
     /* justify-content: center; */
     text-align: left;
     font-size: 1.2rem;
+  }
+
+  .how-text h3 {
+    font-size: 1.1rem;
   }
 
   .how-left,
