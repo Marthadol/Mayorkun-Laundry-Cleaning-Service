@@ -31,7 +31,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 15px 0;
+  padding: 5px 0;
 }
 
 /* LOGO */
@@ -49,7 +49,7 @@ html {
 
 .nav a {
   text-decoration: none;
-  color: black;
+  color: #069bc5;
   font-size: 15px;
   transition: 0.3s;
 }
@@ -80,12 +80,12 @@ html {
 }
 
 .menu-toggle {
-  color: aqua;
+  color: #069bc5;
 }
 
 /* BUTTON */
 .btn {
-  background: #00ffff;
+  background: #069bc5;
   color: white;
   padding: 10px 18px;
   border-radius: 6px;
@@ -110,7 +110,7 @@ html {
 }
 
 .button-primary {
-  background: #00ffff;
+  background: #069bc5;
   color: white;
   padding: 10px 18px;
   border-radius: 6px;
@@ -124,7 +124,7 @@ html {
 }
 
 .button-secondary {
-  background: #00ffff;
+  background: #069bc5;
   color: white;
   padding: 10px 18px;
   border-radius: 6px;
@@ -145,14 +145,14 @@ html {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: url("./images/hero\ img.jpg") center/cover no-repeat;
+  background: url("./images/hero_img_4608x3456.webp") center/cover no-repeat;
   overflow: hidden;
 }
 
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.45);
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .hero-content {
@@ -164,17 +164,18 @@ html {
 }
 
 .hero-content h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 15px;
   line-height: 1.2;
-  color: aqua;
+  color: #069bc5;
 }
 
 .hero-content p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #fff;
   margin-bottom: 25px;
   line-height: 1.6;
+  font-weight: 600;
 }
 
 @keyframes heroZoom {
@@ -210,7 +211,7 @@ html {
 /* LEFT SIDE */
 .how-left {
   flex: 1;
-  color: #00ffff;
+  color: #069bc5;
 }
 
 .how-left h2 {
@@ -290,7 +291,7 @@ html {
 .services-header h2 {
   font-size: 32px;
   margin-bottom: 10px;
-  color: #00ffff;
+  color: #069bc5;
 }
 
 .services-header p {
@@ -328,7 +329,7 @@ html {
 .service-card h3 {
   font-size: 20px;
   margin-bottom: 10px;
-  color: #111;
+  color: #069bc5;
 }
 
 .service-card p {
@@ -353,7 +354,7 @@ html {
 .why-text h2 {
   font-size: 32px;
   margin-bottom: 10px;
-  color: #00ffff;
+  color: #069bc5;
 }
 
 .why-text p {
@@ -384,7 +385,7 @@ html {
 
 .why-item h4 {
   margin-bottom: 5px;
-  color: #00ffff;
+  color: #069bc5;
 }
 
 .why-item p {
@@ -416,7 +417,7 @@ html {
 .testimonials-header h2 {
   font-size: 32px;
   margin-bottom: 10px;
-  color: #00ffff;
+  color: #069bc5;
 }
 
 .testimonials-header p {
@@ -471,6 +472,7 @@ html {
 .user h4 {
   font-size: 16px;
   margin-bottom: 2px;
+  color: #069bc5;
 }
 
 .user span {
@@ -489,7 +491,7 @@ html {
 .cta-container {
   /* max-width: 700px; */
   width: 100%;
-  background: #0f172a;
+  background: #069bc5;
   color: #fff;
   padding: 50px 30px;
   border-radius: 20px;
@@ -567,7 +569,7 @@ html {
 .about-text h2 {
   font-size: 2rem;
   margin-bottom: 15px;
-  color: #00ffff;
+  color: #069bc5;
 }
 
 .about-text p {
@@ -598,7 +600,7 @@ html {
 .about-card h3 {
   margin-bottom: 8px;
   font-size: 1.1rem;
-  color: #00ffff;
+  color: #069bc5;
 }
 
 .about-card p {
@@ -617,7 +619,7 @@ html {
 .back-home {
   display: inline-block;
   margin-bottom: 20px;
-  color: #333;
+  color: #b5053a;
   text-decoration: none;
 }
 
@@ -630,7 +632,7 @@ html {
 .order-header h1 {
   font-size: 34px;
   margin-bottom: 8px;
-  color: #00ffff;
+  color: #069bc5;
 }
 
 .order-header p {
@@ -642,6 +644,7 @@ html {
   text-align: center;
   margin-bottom: 30px;
   color: #111;
+  font-weight: 600;
 }
 
 /* MAIN GRID */
@@ -678,6 +681,7 @@ html {
 
 .order-card h3 {
   margin-bottom: 6px;
+  color: #069bc5;
 }
 
 .order-card p {
@@ -709,7 +713,7 @@ html {
 }
 
 .order-form-box h2 {
-  color: #00ffff;
+  color: #069bc5;
 }
 
 /* FORM */
@@ -742,7 +746,7 @@ html {
 /* BUTTON */
 #confirmBooking {
   margin-top: 10px;
-  background: #00ffff;
+  background: #069bc5;
   color: #fff;
   border: none;
   padding: 14px;
@@ -879,7 +883,7 @@ html {
 .lc-hero-btn {
   margin-top: 20px;
   padding: 12px 25px;
-  background: #00ffff;
+  background: #069bc5;
   border: none;
   color: white;
   cursor: pointer;
@@ -902,17 +906,17 @@ html {
 .lc-offer-section h2 {
   font-size: 30px;
   margin-bottom: 10px;
-  color: #00ffff;
+  color: #069bc5;
 }
 
 .lc-steps-section h2 {
-  color: #00ffff;
+  color: #069bc5;
   font-size: 30px;
   margin-bottom: 30px;
 }
 
 .lc-video-section h2 {
-  color: #00ffff;
+  color: #069bc5;
   font-size: 30px;
   margin-bottom: 30px;
 }
@@ -934,13 +938,13 @@ html {
 
 .lc-offer-card h3 {
   margin-bottom: 10px;
-  color: #007575;
+  color: #069bc5;
 }
 
 .lc-offer-btn {
   margin-top: 10px;
   padding: 8px 15px;
-  background: #222;
+  background: #069bc5;
   color: white;
   border: none;
   border-radius: 5px;
@@ -971,7 +975,7 @@ html {
 }
 
 .lc-showcase-section {
-  color: #00ffff;
+  color: #069bc5;
   font-weight: 500;
 }
 
@@ -1022,7 +1026,7 @@ html {
 ========================= */
 .lc-cta-section {
   padding: 70px 20px;
-  background: #00c2a8;
+  background: #069bc5;
   color: white;
   text-align: center;
 }
@@ -1031,7 +1035,7 @@ html {
   padding: 12px 25px;
   border: none;
   background: white;
-  color: #00c2a8;
+  color: #069bc5;
   font-size: 16px;
   border-radius: 6px;
   cursor: pointer;
@@ -1039,140 +1043,140 @@ html {
 }
 
 .lc-contact-page {
-    font-family: Arial, sans-serif;
-    color: #222;
+  font-family: Arial, sans-serif;
+  color: #222;
 }
 
 /* =========================
    HERO
 ========================= */
 .lc-contact-hero {
-    text-align: center;
-    padding: 80px 20px;
-    background: #00c2a8;
-    color: white;
-    margin-top: 50px;
+  text-align: center;
+  padding: 80px 20px;
+  background: #069bc5;
+  color: white;
+  margin-top: 50px;
 }
 
 .lc-contact-hero h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
+  font-size: 36px;
+  margin-bottom: 10px;
 }
 
 /* =========================
    MAIN SECTION
 ========================= */
 .lc-contact-main {
-    display: flex;
-    gap: 40px;
-    padding: 60px 20px;
-    max-width: 1100px;
-    margin: auto;
+  display: flex;
+  gap: 40px;
+  padding: 60px 20px;
+  max-width: 1100px;
+  margin: auto;
 }
 
 /* =========================
    CONTACT INFO
 ========================= */
 .lc-contact-info {
-    flex: 1;
+  flex: 1;
 }
 
 .lc-contact-info h2 {
-    margin-bottom: 10px;
-    color: #00ffff;
+  margin-bottom: 10px;
+  color: #069bc5;
 }
 
 .lc-contact-item {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 /* =========================
    FORM BOX
 ========================= */
 .lc-contact-form-box {
-    flex: 1;
-    background: #f9f9f9;
-    padding: 30px;
-    border-radius: 10px;
+  flex: 1;
+  background: #f9f9f9;
+  padding: 30px;
+  border-radius: 10px;
 }
 
 .lc-contact-form-box h2 {
-    margin-bottom: 10px;
-    color: #00ffff;
+  margin-bottom: 10px;
+  color: #069bc5;
 }
 
 .lc-contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
-.lc-contact-cta p{
+.lc-contact-cta p {
   margin-top: 5px;
   padding: 10px;
 }
 
 .lc-whatsapp-btn {
-    display: inline-block;
-    padding: 12px 25px;
-    background: #1e293b;
-    color: white;
-    text-decoration: none;
-    border-radius: 6px;
-    font-size: 16px;
+  display: inline-block;
+  padding: 12px 25px;
+  background: #1e293b;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 16px;
 }
 
 .lc-whatsapp-btn:hover {
-    background: #00ffff;
+  background: #069bc5;
 }
 
 .lc-contact-form input,
 .lc-contact-form textarea {
-    padding: 12px;
-    border: 1px solid #ddd;
-    border-radius: 6px;
-    font-size: 14px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
 }
 
 .lc-contact-form button {
-    padding: 12px;
-    background: #00ffff;
-    border: none;
-    color: white;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 16px;
+  padding: 12px;
+  background: #069bc5;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
 }
 
 .lc-contact-form button:hover {
-    background: #007575;
+  background: #007575;
 }
 
 /* =========================
    CTA SECTION
 ========================= */
 .lc-contact-cta {
-    text-align: center;
-    padding: 60px 20px;
-    background: #00c2a8;
-    color: white;
-    margin-bottom: 30px;
-    border-radius: 8px;
+  text-align: center;
+  padding: 60px 20px;
+  background: #069bc5;
+  color: white;
+  margin-bottom: 30px;
+  border-radius: 8px;
 }
 
 .lc-cta-container {
-    max-width: 900px;
-    margin: 0 auto;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .lc-contact-cta button {
-    margin-top: 15px;
-    padding: 12px 25px;
-    background: #0f172a;
-    border: none;
-    color: white;
-    border-radius: 6px;
-    cursor: pointer;
+  margin-top: 15px;
+  padding: 12px 25px;
+  background: #069bc5;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
 }
 
 input:disabled {
@@ -1181,60 +1185,64 @@ input:disabled {
 }
 
 .faq-section {
-  padding: 80px 20px;
-  background: #f9f9f9;
-  max-width: 1000px;
-  margin: auto;
+  width: 90%;
+  max-width: 800px;
+  margin: 70px auto;
 }
-
 .faq-section h2 {
   text-align: center;
-  font-size: 32px;
   margin-bottom: 10px;
-  color: #00ffff;
+  color: #069bc5; 
 }
-
 .faq-subtitle {
   text-align: center;
-  color: #666;
+  color: #777;
   margin-bottom: 40px;
 }
-
-.faq-container {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
 .faq-item {
-  background: #fff;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  border-bottom: 1px solid #ddd;
 }
-
 .faq-question {
   width: 100%;
-  padding: 18px;
-  text-align: left;
-  font-size: 16px;
-  font-weight: 600;
+  padding: 20px 0;
   border: none;
   background: none;
   cursor: pointer;
-  color: #00ffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  color: #069bc5;
 }
-
+.faq-question:hover {
+  color: #0970c4;
+}
 .faq-answer {
   max-height: 0;
   overflow: hidden;
-  transition: 0.3s ease;
-  padding: 0 18px;
+  transition: max-height 0.4s ease;
 }
-
-.faq-item.active .faq-answer {
-  max-height: 200px;
-  padding: 0 18px 18px;
+.faq-answer p {
+  padding: 0 0 20px;
+  color: #555;
+  line-height: 1.8;
+}
+.faq-icon {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.3s ease;
+}
+.faq-icon path {
+  fill: none;
+  stroke: #555;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.faq-item.active .faq-icon {
+  transform: rotate(180deg);
 }
 
 /* RESPONSIVE */
@@ -1244,14 +1252,15 @@ input:disabled {
     top: 70px;
     right: -100%;
     width: 200px;
-    background: #00ffff;
-    padding: 30px;
+    background: #069bc5;
+    padding: 50px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    transition: 0.3s;
+    transition: 0.5s;
+    width: 100%;
 
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 5px;
     border-radius: 10px;
   }
 
@@ -1292,11 +1301,16 @@ input:disabled {
 
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 5px;
   }
 
   .desktop-btn {
     display: none;
+  }
+
+  .nav a {
+    color: #fff;
+    font-size: 16px;
   }
 
   .mobile-btn {
@@ -1311,6 +1325,7 @@ input:disabled {
 
   .cta-container p {
     font-size: 0.95rem;
+    font-weight: 550;
   }
 
   .menu-toggle {
@@ -1401,6 +1416,6 @@ input:disabled {
   }
 
   .lc-hero-section h1 {
-    font-size: 28px;
+    font-size: 20px;
   }
 }

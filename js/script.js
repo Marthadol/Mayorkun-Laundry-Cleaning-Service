@@ -1,3 +1,5 @@
+console.log("Script is working!");
+
 document.addEventListener("DOMContentLoaded", function () {
 
   // 👉 HAMBURGER MENU
@@ -142,10 +144,39 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 
-document.querySelectorAll(".faq-question").forEach(button => {
-  button.addEventListener("click", () => {
-    const item = button.parentElement;
 
-    item.classList.toggle("active");
-  });
+document.addEventListener("DOMContentLoaded", () => {
+
+    const faqItems = document.querySelectorAll(".faq-item");
+
+    faqItems.forEach((item) => {
+
+        const button = item.querySelector(".faq-question");
+        const answer = item.querySelector(".faq-answer");
+
+        button.addEventListener("click", () => {
+
+            // Close every other FAQ
+            faqItems.forEach((otherItem) => {
+
+                if (otherItem !== item) {
+                    otherItem.classList.remove("active");
+                    otherItem.querySelector(".faq-answer").style.maxHeight = null;
+                }
+
+            });
+
+            // Toggle current FAQ
+            item.classList.toggle("active");
+
+            if (item.classList.contains("active")) {
+                answer.style.maxHeight = answer.scrollHeight + "px";
+            } else {
+                answer.style.maxHeight = null;
+            }
+
+        });
+
+    });
+
 });
