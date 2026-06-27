@@ -1301,7 +1301,7 @@ input:disabled {
 
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 20px;
   }
 
   .desktop-btn {
